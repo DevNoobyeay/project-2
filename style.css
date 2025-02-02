@@ -1,0 +1,223 @@
+* {
+  font-family: "Abeezee";
+  margin: 0 0 0 0;
+  border: 0;
+  list-style: none;
+}
+ul{
+  padding: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #38a5ff;
+}
+.header .logo {
+  width: 145px;
+  height: 46px;
+}
+.header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+  color: white;
+}
+.header .button button {
+  width: 179px;
+  height: 56px;
+  border-radius: 15px;
+  color: black;
+  font-size: 15px;
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.intro__wrapper {
+  width: 100%;
+  background-color: #38a5ff;
+  color: white;
+  height: 600px;
+}
+.intro__wrapper .intro {
+  margin: auto;
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.intro__wrapper .intro .img {
+  background-image: url(imgs/computer.png);
+  width: 500px;
+  height: 500px;
+}
+.intro__wrapper .intro .random_stuff {
+  width: 500px;
+}
+.intro__wrapper .intro .random_stuff h1 {
+  width: 300px;
+  margin-bottom: 50px;
+}
+.intro__wrapper .intro .button button {
+  background-color: black;
+  color: white;
+  height: 50px;
+  width: 100px;
+}
+
+.main_features {
+  margin: auto;
+  width: 100%;
+}
+.main_features .icons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 1200px;
+  margin: auto;
+}
+.main_features .icons p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_features .main_features_content .deeper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main_features_content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.main_features .main_features_content .deeper {
+  display: flex;
+  align-items: center;
+}
+.main_features .main_features_content img {
+  width: 600px;
+  height: 600px;
+}
+.main_features .main_features_content ul {
+  padding: 0;
+  height: 300px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.main_features .main_features_content ul li img {
+  width: 60px;
+  height: 60px;
+}
+.main_features .main_features_content ul .li {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.main_features .tetimonials {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.main_features .tetimonials .people {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 50px;
+  gap: 50px;
+}
+.main_features .tetimonials .people .person img {
+  width: 80px;
+  height: 80px;
+}
+.main_features .tetimonials .people .person {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  text-align: center;
+}
+.main_features .food_availability {
+  margin-top: 150px;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 200px;
+  background-color: #38a5ff;
+  color: white;
+}
+.main_features .food_availability button {
+  width: 179px;
+  height: 56px;
+  border-radius: 15px;
+  color: black;
+  font-size: 15px;
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+
+.update_news {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.update_news .health {
+  width: 324px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.update_news .health img {
+  width: 324px;
+  height: 200px;
+}
+.update_news .health a {
+  font-family: "Alata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  text-decoration: none;
+  color: #38a5ff;
+}
+.update_news .health__wrapper{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;  
+}
+
+.footer{
+  margin-top: 100px;
+  display: flex;
+  background: #000;
+  justify-content: center;
+  color: white;
+}
+.footer .section{
+  padding: 50px;
+  width: 200px;
+}
+.section h2{
+  margin-bottom: 30px;
+}
+form{
+  display: flex;
+  flex-direction: row;
+}
+.footer form input:nth-child(2){
+width: 200px;
+height: 42px;
+background: #38A5FF;
+color: white;
+}
